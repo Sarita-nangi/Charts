@@ -1,0 +1,8 @@
+import chartData from '../data/chartData.json';
+
+interface ChartDataPoint {
+  timestamp: string;
+  value: number;
+}
+
+const typedChartData = chartData as ChartDataPoint[];

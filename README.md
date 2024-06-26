@@ -1,28 +1,49 @@
-# Getting Started with Create React App
+# My Chart App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React.js application that displays a chart using Recharts. The chart supports timeframe breakdown, zooming, and interactive click events. The chart data is provided in JSON format.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Timeframe breakdown (daily, weekly, monthly views)
+- Timeframe zooming
+- Interactive click events to display details of the clicked data point
+- Export the chart as PNG
 
-### `npm start`
+## Setup and Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Follow these steps to set up and run the project locally.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+- Node.js (>=14.x)
+- npm (>=6.x) or yarn (>=1.x)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```sh
+    git clone https://github.com/your-username/my-chart-app.git
+    cd my-chart-app
+    ```
+
+2. Install the dependencies:
+
+    ```sh
+    npm install
+    # or
+    yarn install
+    ```
+
+### Running the Project
+
+To start the development server, run:
+
+```sh
+npm start
+# or
+yarn start
+
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
